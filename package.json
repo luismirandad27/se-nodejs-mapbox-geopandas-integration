@@ -1,0 +1,16 @@
+{
+  "name": "se-nodejs-mapbox-geopandas-integration",
+  "version": "1.0.0",
+  "description": "A NodeJs app with an integration with MapBox with a GeoJSON file with COVID-19 stats from the US",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

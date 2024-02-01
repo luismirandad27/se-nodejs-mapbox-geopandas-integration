@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title COVID-19 Statistics
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/static/css/style.css")
+    link(rel="stylesheet", href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css")
+  body
+    include includes/header
+
+    block content
+
+    include includes/footer
+    script.
+      window.mapboxAccessToken = "#{mapboxAccessToken}";
+    script(src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js")
+    script(src="/static/js/mapbox.js")
